@@ -53,6 +53,7 @@ import org.springframework.stereotype.Component;
 @Scope("singleton")
 public class AccountNumberFormatsApiResource {
 
+	
     private final PlatformSecurityContext context;
     private final AccountNumberFormatReadPlatformService accountNumberFormatReadPlatformService;
     private final ToApiJsonSerializer<AccountNumberFormatData> toApiJsonSerializer;
